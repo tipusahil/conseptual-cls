@@ -101,6 +101,22 @@ top:0; */
           
   /*section1  banner_sec1 responsive style end  */
 
+.take_it{
+    position: absolute;
+    top:45%;
+    right:60%;
+
+    width: 10%;
+    height: 5%;
+    color: rgb(233, 166, 233);
+    background-color: transparent;
+    font: size 1px; ;
+border-radius: 50%;
+border:2px solid azure;
 
 }
+
+
+}
+
 
