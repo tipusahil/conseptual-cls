@@ -225,6 +225,7 @@ margin: 0 auto;
 }
 .h1_icons_div{
     display: flex;
-
     justify-content: space-between;
+    
+
 }
