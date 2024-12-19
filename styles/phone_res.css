@@ -79,27 +79,28 @@ top:0; */
 
 
 
-
-    /* 
-
-
-
-
-
-.menu_ul a{
-    color:white;
-    text-decoration: none;
-    /* padding:10px 15px;
-    background-color:black;
-    border: 1px solid white;
-    border-radius: 5px; */
-}
-
-/* 
-
- */
-
  /* header style end */
 
 
 /* main tag er banner_sec1 er style start from here */
+
+
+.banner_sec1{
+
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+      gap:5px;
+    padding: 10px 10px;
+    margin: 10px 1%;
+    }
+
+            /* img er ketre object-fit property use kore  cover value use korle sei iamge ta full deka jabe. kuno crop hoye asbena, & object/background er sate fit hoye asbe.   */
+          
+  /*section1  banner_sec1 responsive style end  */
+
+
+}
+
