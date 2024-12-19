@@ -1,0 +1,152 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+    border:2px solid red;
+}
+
+header{
+    background-color: rgb(33, 71, 185);
+    border: 2px solid rgb(33, 71, 185);
+    color:white;
+}
+
+.header_sec1{
+    display: flex;
+    justify-content:space-between;
+    max-width: 1200px;
+    align-items: center;
+ margin: 20px 10%;
+}
+.icon_side{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+.icon_side .fa-facebook{
+    font-size: 40px;
+} 
+
+.menu_ul{
+    display: flex;
+    font-size: 20px;
+}
+.menu_ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+
+.menu_ul a{
+    color:white;
+    text-decoration: none;
+    /* padding:10px 15px;
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 5px; */
+}
+
+.fa-mobile,.fa-desktop{
+    font-size: 30px;
+    color:white;
+margin-right: 10px;
+}
+
+.Desktop_icon{
+    display: none;
+}
+
+/* header style end */
+
+
+/* main tag er banner_sec1 er style start from here */
+
+.banner_sec1{
+max-width: 1200px;
+height:400px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap:20px;
+padding: 10px 30px;
+margin: 20px 10%;
+}
+
+.banner_2box{
+
+width: 50%;
+height: 100%;
+margin:0 auto;
+}
+
+.banner_con{
+display: flex;
+flex-direction: column;
+/* flex direction change korle  */
+justify-content: space-evenly;
+/* (justify-content)property use korle normal kuno div er item flex korar pore seta pashapashi jaiga reke boshe, kintu jkn (flex-direction:column) kora hobe tkn ei justify-content property ta pashapasi justify krobena, upore nise justify korbe. */
+
+align-items: center; 
+/* align-items: center; ei property diye muloto kuno item flex korar pore seta eki line e boshanor jonno center use kroea hoito,jate sobi center line hoye  bose,kintu (flex-direction:column;) eta use korle item gulo upore nise eki line e center align hoye bosabe,kintu maj borabor, */
+
+}
+
+.banner_sec1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* img er ketre object-fit property use kore  cover value use korle sei iamge ta full deka jabe. kuno crop hoye asbena, & object/background er sate fit hoye asbe.   */
+}
+
+
+
+.banner_sec1 h1{ /* text k 2vabe gradient color dewa jai.*/
+
+    /* 1.protom niom:
+     background-image: linear-gradient(rgb(33, 71, 185),rgb(156, 156, 156)); 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+ 2. 2nd niom:*/
+    background:linear-gradient(rgb(33, 71, 185),rgb(156, 156, 156));
+    background-clip: text;
+    color: transparent;
+    font-size: 35px;
+    
+}
+
+
+.banner_sec1 h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner_btn{
+    text-align: left;
+ 
+}
+
+.banner_btn button{
+    border:2px solid white;
+    border-radius: 10px;
+    padding:10px 20px;
+    background-color: rgb(33, 71, 185);
+    font-size: 20px;
+    color:white;
+}
+.banner_btn button:hover{
+    border:2px solid rgb(33, 71, 185);
+    border-radius: 10px;
+    padding:10px 20px;
+    background-color: transparent;
+    font-size: 20px;
+    color:rgb(33, 71, 185);
+}
+

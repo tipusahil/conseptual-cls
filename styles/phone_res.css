@@ -1,0 +1,105 @@
+@media screen and (max-width:600px) and (min-width:300px) {
+
+    header {
+        background-color: rgb(33, 71, 185);
+        border: 2px solid rgb(33, 71, 185);
+        color: white;
+    }
+
+    .header_sec1 {
+        /* display: flex; */
+        flex-direction: column;
+        border: 2px solid;
+        align-items: first baseline;
+
+        justify-content: space-evenly;
+        font-size: 15px;
+        margin: 5%;
+        padding: 5px;
+        gap: 15px;
+        /* max-width: 1140px;
+    align-items: center;
+ */
+    }
+
+
+    .icon_side {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 10px;
+        align-items: center;
+        /* position: relative;
+left:-10px;
+top:0; */
+    }
+
+    .icon_side .fa-facebook {
+        font-size: 15px;
+    }
+
+
+
+    .menu_ul {
+        display: flex;
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .menu_ul li {
+        list-style: none;
+        margin-right: 5px;
+    }
+
+
+    .menu_ul a {
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+        /*
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 5px; */
+    }
+
+    .phone_icon {
+        display: none;
+
+    }
+
+    .Desktop_icon {
+        font-size: 15px;
+        color: white;
+        margin-right: 5px;
+        position: absolute;
+        right: 30px;
+        top: 42px;
+        display: block;
+    }
+
+
+
+
+    /* 
+
+
+
+
+
+.menu_ul a{
+    color:white;
+    text-decoration: none;
+    /* padding:10px 15px;
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 5px; */
+}
+
+/* 
+
+ */
+
+ /* header style end */
+
+
+/* main tag er banner_sec1 er style start from here */
